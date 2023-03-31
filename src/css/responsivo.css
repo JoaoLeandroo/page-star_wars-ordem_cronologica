@@ -1,0 +1,36 @@
+
+@media (max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .area-buttons button {
+        width: 100px;
+        margin-top: 5px;
+    }
+    .carrossel section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carrossel img {
+        width: 35%;
+        box-shadow: none;
+        margin: 15px;
+    }
+
+    section div {
+        width: 90%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .carrossel .section_esquerda {
+        flex-direction: column-reverse;
+    }
+
+}
